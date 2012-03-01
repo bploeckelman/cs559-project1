@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="shared">
+      <UniqueIdentifier>{734f772a-6490-44a8-9f8c-26a9b6d01cc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shared\tgalibs">
+      <UniqueIdentifier>{4365707b-fa24-4250-be5f-bd1c7209ab7d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\shared\tgalibs\libtarga.c">
+      <Filter>shared\tgalibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\tgalibs\TargaImage.cpp">
+      <Filter>shared\tgalibs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\shared\ImageProcessing.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\tgalibs\libtarga.h">
+      <Filter>shared\tgalibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\tgalibs\TargaImage.h">
+      <Filter>shared\tgalibs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\Color.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\ImageProcessing.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\Matrix2d.h">
+      <Filter>shared</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="todo.txt" />
+    <None Include="readme.txt" />
+  </ItemGroup>
+</Project>

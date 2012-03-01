@@ -1,0 +1,5 @@
+TODO:
+--------------------------------
+[ ] - Add support for different edge handling methods in resampleBilinear() (renormalize, clamp, reflect, ...)
+[ ] - Add support for more resampling kernels 
+(not sure how to deal with this quite yet... maybe if we resample per row, then per column the existing filter-helper functions could just be plugged in?)

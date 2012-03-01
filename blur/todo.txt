@@ -1,0 +1,6 @@
+TODO:
+--------------------------------
+[ ] - Support different edge handling methods (renormalize, clamp, reflect, ...)
+[ ] - Refactor KernelMatrix into its own class
+[ ] - Support separable filters (add get/set row/col in Matrix2d)
+[ ] - Add support for b-spline kernel blurring

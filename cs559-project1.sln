@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "blur", "blur\blur.vcxproj", "{ACF32656-F517-4751-B661-F555163B80F5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "resize", "resize\resize.vcxproj", "{42E1C961-512C-4FCF-94D8-C6DFD30C0D89}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "painterly", "painterly\painterly.vcxproj", "{B3262AD8-75AD-4B91-8E0A-6D7ACC1C875E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ACF32656-F517-4751-B661-F555163B80F5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{ACF32656-F517-4751-B661-F555163B80F5}.Debug|Win32.Build.0 = Debug|Win32
+		{ACF32656-F517-4751-B661-F555163B80F5}.Release|Win32.ActiveCfg = Release|Win32
+		{ACF32656-F517-4751-B661-F555163B80F5}.Release|Win32.Build.0 = Release|Win32
+		{42E1C961-512C-4FCF-94D8-C6DFD30C0D89}.Debug|Win32.ActiveCfg = Debug|Win32
+		{42E1C961-512C-4FCF-94D8-C6DFD30C0D89}.Debug|Win32.Build.0 = Debug|Win32
+		{42E1C961-512C-4FCF-94D8-C6DFD30C0D89}.Release|Win32.ActiveCfg = Release|Win32
+		{42E1C961-512C-4FCF-94D8-C6DFD30C0D89}.Release|Win32.Build.0 = Release|Win32
+		{B3262AD8-75AD-4B91-8E0A-6D7ACC1C875E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B3262AD8-75AD-4B91-8E0A-6D7ACC1C875E}.Debug|Win32.Build.0 = Debug|Win32
+		{B3262AD8-75AD-4B91-8E0A-6D7ACC1C875E}.Release|Win32.ActiveCfg = Release|Win32
+		{B3262AD8-75AD-4B91-8E0A-6D7ACC1C875E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
